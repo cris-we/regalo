@@ -151,7 +151,8 @@ p {
     .corazon::after {
         right: 15px;
     }
-/*Agregar class dinamicos*/ .abierto .sobre::before {
+/*Agregar class dinamicos*/ 
+.abierto .sobre::before {
     transform: rotateX(180deg);
     z-index: 0;
 }
